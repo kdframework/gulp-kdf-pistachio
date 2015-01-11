@@ -1,11 +1,11 @@
 'use strict';
 
 var through = require('through2');
-var pistachioCompiler = require('pistachio-compiler');
+var PistachioCompiler = require('kdf-pistachio/lib/file-compiler')
 var gutil = require('gulp-util');
 var PluginError = gutil.PluginError;
 
-var PLUGIN_NAME = 'gulp-kd-pistachio-compiler';
+var PLUGIN_NAME = 'gulp-kdf-pistachio';
 
 module.exports = function () {
 
@@ -22,7 +22,7 @@ module.exports = function () {
     var contents;
 
     try {
-      contents = pistachioCompiler(file.contents.toString('utf8')).toString('utf8');
+      contents = PistachioCompiler.compile(file.contents.toString('utf8')).toString('utf8');
     } catch (err) {
       return cb(new PluginError(PLUGIN_NAME, err));
     } finally {
