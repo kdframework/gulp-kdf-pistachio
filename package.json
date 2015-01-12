@@ -1,10 +1,10 @@
 {
-  "name": "gulp-kd-pistachio-compiler",
-  "version": "0.1.1",
-  "description": "pistachio compiler for KD's own templates",
+  "name": "gulp-kdf-pistachio",
+  "version": "0.0.1",
+  "description": "Gulp task for compiling JS files with pistachio strings",
   "main": "index.js",
   "dependencies": {
-    "pistachio-compiler": "0.0.3",
+    "kdf-pistachio": "0.0.3",
     "through2": "^0.6.1",
     "gulp-util": "^3.0.1"
   },
@@ -14,23 +14,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/koding/gulp-kd-pistachio-compiler.git"
+    "url": "https://github.com/kdframework/gulp-kdf-pistachio.git"
   },
   "author": {
     "name": "Sinan Yasar",
     "email": "sinan@koding.com"
   },
   "license": "MIT",
-  "readme": "gulp-kd-pistachio-compiler\n==========================\n\npistachio compiler for KD's own templates\n",
-  "readmeFilename": "README.md",
   "bugs": {
-    "url": "https://github.com/koding/gulp-kd-pistachio-compiler/issues"
+    "url": "https://github.com/kdframework/gulp-kdf-pistachio/issues"
   },
-  "homepage": "https://github.com/koding/gulp-kd-pistachio-compiler",
-  "_id": "gulp-kd-pistachio-compiler@0.0.3",
-  "dist": {
-    "shasum": "7f878c65cf612d9690a1ccf2069a99a66661560a"
-  },
-  "_from": "gulp-kd-pistachio-compiler@0.0.3",
-  "_resolved": "http://registry.npmjs.org/gulp-kd-pistachio-compiler/-/gulp-kd-pistachio-compiler-0.0.3.tgz"
+  "homepage": "https://github.com/koding/gulp-kdf-pistachio"
 }
