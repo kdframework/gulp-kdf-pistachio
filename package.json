@@ -1,6 +1,6 @@
 {
   "name": "gulp-kdf-pistachio",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Gulp task for compiling JS files with pistachio strings",
   "main": "index.js",
   "dependencies": {
